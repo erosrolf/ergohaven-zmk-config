@@ -72,9 +72,6 @@
             display-name = "Adjust";
         };
 
-            display-name = "Adjust";
-        };
-
         mouse {
             bindings = <
 &trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
