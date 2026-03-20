@@ -11,18 +11,18 @@ include:
     shield: op36_right
     artifact-name: op36_right-ergohaven-zmk
 
-  # OP36 ruen
-  - board: ergohaven
-    shield: op36_left
-    keymap: op36_ruen
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: op36_left_ruen-ergohaven-zmk
-
-  - board: ergohaven
-    shield: op36_right
-    keymap: op36_ruen
-    artifact-name: op36_right_ruen-ergohaven-zmk
+  # # OP36 ruen
+  # - board: ergohaven
+  #   shield: op36_left
+  #   keymap: op36_ruen
+  #   snippet: studio-rpc-usb-uart
+  #   cmake-args: -DCONFIG_ZMK_STUDIO=y
+  #   artifact-name: op36_left_ruen-ergohaven-zmk
+  #
+  # - board: ergohaven
+  #   shield: op36_right
+  #   keymap: op36_ruen
+  #   artifact-name: op36_right_ruen-ergohaven-zmk
 
   # reset settings
   - board: ergohaven
