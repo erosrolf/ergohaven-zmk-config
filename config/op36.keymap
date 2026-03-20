@@ -73,10 +73,10 @@
 
         left {
             bindings = <
-  &kp N1         &kp N2    &kp N3     &kp N4     &kp N5                        &kp N6    &kp N7           &kp N8         &kp N9        &kp N0
-  &hml LGUI ESC  &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER                     &kp LEFT  &hmr RCTRL DOWN  &hmr RSHFT UP  &hmr LALT UP  &hmr RGUI PRINTSCREEN
-  &none          &kp HOME  &kp INS    &kp END    &kp DELETE                    &kp CAPS  &none            &kp PG_DN      &kp PG_UP     &none
-                                      &trans     &trans      &trans    &trans  &mo 3     &trans
+  &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &kp PRCNT                     &kp CARET &kp AMPS         &kp STAR       &kp LPAR      &kp RPAR
+  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH                      &kp LEFT  &hmr RCTRL DOWN  &hmr RSHFT UP  &hmr LALT UP  &hmr RGUI PRINTSCREEN
+  &none      &kp ESC    &kp INS   &kp END   &kp DELETE                    &kp CAPS  &none            &kp PG_DN      &kp PG_UP     &none
+                                  &trans    &trans      &trans    &trans  &mo 3     &trans
             >;
 
             display-name = "Left-layer";
@@ -84,10 +84,10 @@
 
         right {
             bindings = <
-  &none           &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                    &kp CARET  &kp LBKT         &kp UNDER        &kp RBKT        &none
-  &hml LGUI BSLH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT  &hmr RCTRL LBRC  &hmr RSHFT SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
-  &kp HASH        &kp STAR        &kp COLON         &kp FSLH         &none                        &none      &kp PIPE         &kp TILDE        &kp AMPS        &kp DLLR
-                                                    &trans           &mo 3      &trans    &trans  &trans     &trans
+  &kp N1     &kp N2     &kp N3    &kp N4    &kp N5                      &kp N6     &kp N7           &kp N8           &kp N9          &kp N0
+  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH                    &kp PRCNT  &hmr RCTRL LBRC  &hmr RSHFT SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
+  &kp HASH   &kp STAR   &kp COLON &kp FSLH  &none                       &none      &kp PIPE         &kp TILDE        &kp AMPS        &kp DLLR
+                                            &trans           &mo 3      &trans    &trans  &trans     &trans
             >;
 
             display-name = "Right-layer";
