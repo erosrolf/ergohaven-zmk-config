@@ -62,10 +62,10 @@
 
         base {
             bindings = <
-  &kp Q         &kp W        &kp E  &kp R         &kp T                              &kp Y  &kp U  &kp I      &kp O    &kp P
-  &hml LGUI A   &hml LALT S  &kp D  &hml LCTRL F  &kp G                              &kp H  &kp J  &kp K      &kp L    &hmr RGUI SEMICOLON
-  &hml LSHFT Z  &kp X        &kp C  &kp V         &kp B                              &kp N  &kp M  &kp COMMA  &kp DOT  &hmr RSHFT FSLH
-                                    &kp TAB       &mo 1  &kp BACKSPACE    &kp SPACE  &mo 2  &kp LCTRL
+  &kp Q          &kp W        &kp E  &kp R           &kp T                              &kp Y  &kp U  &kp I      &kp O          &kp P
+  &hml LSHIFT A  &kp S        &kp D  &kp F           &kp G                              &kp H  &kp J  &kp K      &kp L          &hmr RSHIFT SEMICOLON
+  &hml LGUI Z    &hml LALT X  &kp C  &kp V           &kp B                              &kp N  &kp M  &kp COMMA  &hmr RALT DOT  &hmr RGUI FSLH
+                                     &hml LCTRL TAB  &mo 1  &kp BACKSPACE    &kp SPACE  &mo 2  &hmr RCTRL TAB
             >;
 
             display-name = "Base-layer";
@@ -73,10 +73,10 @@
 
         left {
             bindings = <
-  &kp EXCL    &kp AT     &kp HASH  &kp DLLR  &kp PRCNT                     &kp CARET &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR
-  &kp ESC     &kp EQUAL  &kp LBKT  &kp RBKT  &kp RET                       &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &none
-  &kp LSHIFT  &kp UNDER  &kp LPAR  &kp RPAR  &kp SQT                       &none     &none     &kp PG_DN  &kp PG_UP  &kp RSHFT
-                                   &trans    &trans      &trans    &trans  &mo 3     &trans
+  &kp EXCL            &kp AT     &kp HASH   &kp DLLR  &kp PRCNT                   &kp CARET &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR
+  &hml LSHIFT ESC     &kp EQUAL  &kp LBKT   &kp RBKT  &kp RET                     &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &kp RSHIFT
+  &kp  LGUI           &kp UNDER  &kp LPAR   &kp RPAR  &kp SQT                     &none     &none     &kp PG_DN  &kp PG_UP  &kp RGUI
+                                            &trans    &trans    &trans    &trans  &mo 3     &trans
             >;
 
             display-name = "Left-layer";
@@ -85,8 +85,8 @@
         right {
             bindings = <
   &kp N1             &kp N2     &kp N3    &kp N4    &kp N5                      &kp N6     &kp N7     &kp N8     &kp N9    &kp N0
-  &kp MINUS          &kp EQUAL  &kp LBRC  &kp RBRC  &kp BSLH                    &kp PIPE   &kp LBRC   &kp AMPS   &kp RBRC  &none
-  &hml LSHIFT TILDE  &kp STAR   &kp LPAR  &kp RPAR  &kp DQT                     &kp GRAVE  &kp PRCNT  &none      &none     &hml RSHFT DLLR
+  &hml LSHIFT MINUS  &kp EQUAL  &kp LBRC  &kp RBRC  &kp BSLH                    &kp PIPE   &kp LBRC   &kp AMPS   &kp RBRC  &hp RSHIFT
+  &hml LGUI TILDE    &kp STAR   &kp LPAR  &kp RPAR  &kp DQT                     &kp GRAVE  &kp PRCNT  &none      &none     &hml RGUI DLLR
                                           &trans    &mo 3     &trans    &trans  &trans     &trans
             >;
 
